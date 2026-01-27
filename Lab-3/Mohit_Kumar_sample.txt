@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int product_of_2(int a , int b){
+    return (a*b);
+
+}
+int main(){
+
+
+    int a;
+    int b;
+    cout<<"Enter your first number:";
+    cin>>a;
+
+    cout<<"Enter your second number:";
+    cin>>b;
+
+
+    cout<<"Your answer is :"<<product_of_2(a,b);
+    
+
+
+
+
+    return 0;
+
+}
